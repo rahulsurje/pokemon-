@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/svg-with-js.min.css">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+
+
+        }
+
+        #container {
+            margin: 5px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #br {
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        #i1 {
+            border: none;
+            background: none;
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        #i2 {
+            border: none;
+            background: none;
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        #i3 {
+            border: none;
+            background: none;
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        #i4 {
+            border: none;
+            background: none;
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        #i5 {
+            border: none;
+            background: none;
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        #i6 {
+            border: none;
+            background: none;
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        #i7 {
+
+            border: none;
+            background: none;
+            margin-left: 30px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        #i8 {
+            border: none;
+            background: none;
+            background-color: rgb(231, 99, 22);
+            margin-left: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+
+        }
+
+
+
+        #m1 {
+            font-size: 55px;
+            height: 100vh;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            background-image: url("https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245372542_105568715242217_2630161111434875018_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=GbVANhwzLdMAX_irywN&_nc_ht=scontent.fbho4-1.fna&oh=5e726c25636da52aeb1e501841fa6642&oe=6191972B");
+        }
+
+        #h1 {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        #cont1 {
+            margin-left: 140px;
+
+        }
+
+        #b1 {
+            padding: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background-color: rgb(40, 128, 243);
+            border: none;
+            color: white;
+        }
+
+        #b2 {
+
+            padding: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background: none;
+            border: solid;
+            border-color: white;
+            color: white;
+
+        }
+
+        #b3 {
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #m2 {
+            height: 100vh;
+
+            Background-Color: #4992ca
+        }
+
+        /* MAIN SECTION 2*/
+        #sect1 {
+            display: flex;
+            text-align: center;
+            height: 20vh;
+            color: white;
+        }
+
+        #m2h1 {
+            padding: 20px;
+            font-size: 45px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+
+        }
+
+        #m2h2 {
+            padding: 20px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+        }
+
+        #m2h3 {
+            font-family: Avenir-Next, Roboto, sans-serif;
+            padding-left: 260px;
+            padding-right: 260px;
+        }
+
+        #m2sec2 {
+            margin: 20px;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            text-align: center;
+            justify-content: flex-end;
+            height: 60vh;
+            padding-top: 100px;
+            padding-left: 260px;
+            padding-right: 260px;
+            column-gap: 10px;
+        }
+
+
+        #sec2d31 {
+            margin: 30px;
+            font-size: 40px;
+        }
+
+        #sec2d32 {
+            margin: 30px;
+            font-size: 40px;
+        }
+
+        #sec2d33 {
+            margin: 30px;
+            font-size: 40px;
+        }
+
+        #sec2h11 {
+            margin: 30px;
+        }
+
+        #sec2h12 {
+            margin: 30px;
+        }
+
+        #sec2h13 {
+            margin: 30px;
+        }
+
+        #m3d11 {
+            font-family: Avenir-Next, Roboto, sans-serif;
+            height: 50px;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        #m3tab1 {
+            width: 80%;
+            text-align: center;
+            align-items: center;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 300px;
+        }
+
+        #th11 {
+            padding-bottom: 30px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+
+        }
+
+        #secth41 {
+            padding: 40px;
+            text-align: center;
+            font-family: Avenir-Next, Roboto, sans-serif;
+
+        }
+
+        #m3table311 {
+            font-family: Avenir-Next, Roboto, sans-serif;
+            margin-left: 120px;
+        }
+
+        #m3img311 {
+            line-height: 70px;
+            margin: 10px;
+        }
+
+        #m3h311 {
+            text-align: center;
+        }
+
+        #m3div313 {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            column-gap: 30px;
+        }
+       #m3parag3311{
+           color: rgba(0, 0, 0, 0.7);
+           font-family: none;
+            column-gap: 30px;
+
+        }
+
+        #m5 {
+            height: 100vh;
+            Background-Color: #4992ca
+        }
+
+        #m5h51 {
+            width: 100%;
+            color: white;
+            font-family: Avenir-Next, Roboto, sans-serif;
+
+        }
+
+        #m5d51 {
+            display: flex;
+            height: 100px;
+            justify-content: center;
+            align-items: flex-end;
+            font-size: 50px;
+
+        }
+
+        #m5li511 {
+            margin-right: 80px;
+            margin-left: 310px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+        }
+
+        #m4h512 {
+            margin-top: 40px;
+            margin-left: 200px;
+
+            font-family: Avenir-Next, Roboto, sans-serif;
+            color: white;
+        }
+
+        #m6 {
+            height: 100vh;
+        }
+
+        #m6d61 {
+            font-family: Avenir-Next, Roboto, sans-serif;
+            display: flex;
+            height: 80px;
+            align-items: flex-end;
+            font-size: 30px;
+            justify-content: center;
+        }
+
+        #m6d62 {
+            width: 100%;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 25px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+
+        }
+
+        #m6tab63 {
+            border-collapse: collapse;
+            text-align: left;
+            margin-top: 20px;
+            border: rgb(218, 211, 211);
+            margin-right: 200px;
+            width: 600px;
+            height: 300px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        #m6tabtr1 {
+            width: 250px;
+            height: 350px;
+
+            text-align: left;
+            margin-left: 250px;
+
+
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        #m6d661 {
+            flex-direction: column;
+            margin-top: 70px;
+            text-align: center;
+            display: flex;
+            height: 10px;
+            justify-content: space-between;
+            Color: #4992ca;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            height: 20px;
+        }
+
+        #m6d662 {
+
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        #m6b61 {
+            background-color: #4992ca;
+            border: none;
+            padding: 10px;
+            padding-right: 70px;
+            padding-left: 70px;
+            background-color: #4992ca;
+            color: white;
+            font-family: Avenir-Next, Roboto, sans-serif;
+        }
+
+        #m7d71 {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            font-size: 25px;
+            margin-bottom: 40px;
+        }
+
+        #m7d72 {
+            padding-right: 80px;
+            padding-left: 80px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-top: 10px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.11);
+            border: solid
+        }
+
+        #m7d73 {
+            height: 60vh;
+            text-align: center;
+            font-size: 25px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            color: rgba(0, 0, 0, 0.5);
+
+        }
+
+        #m7d74 {
+            border-color: rgb(248, 247, 245);
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            width: 15%;
+            height: auto;
+            margin-bottom: 20px;
+            /* border-collapse: collapse; */
+            border-top-width: 14px;
+            border-top-color: rgb(72, 133, 224);
+        }
+
+        #m8 {
+            background-color: #4992ca;
+            margin-top: 30px;
+            height: 160vh;
+            color: white;
+            font-family: Avenir-Next, Roboto, sans-serif;
+        }
+
+        #m8h1 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 40px;
+            line-height: 100px;
+            height: 80px;
+        }
+
+        #m8tab1 {
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 20px;
+        }
+
+        #m8img1 {
+            border-radius: 50%;
+            background-color: #4992ca;
+
+        }
+
+        #m8h21 {
+            text-align: center;
+            margin-bottom: 40px;
+            margin-left: 20px;
+        }
+
+        #m8p1 {
+            margin-bottom: 60px;
+            font-size: 12px;
+            margin-left: 20px;
+        }
+
+        #m9table {
+
+            border-top-width: 20px;
+            border-color: rgb(248, 247, 245);
+
+            border-top-width: 14px;
+            border-top-color: rgb(72, 133, 224);
+
+        }
+
+        #container2 {
+            display: grid;
+            justify-content: center;
+            text-align: start;
+            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 320px 320px;
+            grid-template-rows: 350px 300px;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            font-family: serif;
+
+        }
+
+        #m9h91 {
+            text-align: center;
+            color: rgba(0, 0, 0, 0.7);
+            line-height: 70px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+        }
+
+        #m10sect1 {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            flex-direction: column;
+            color: white;
+            margin-top: 40px;
+
+        }
+
+        #m10b11 {
+            padding-right: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #m10b12 {
+            padding-right: 80px;
+            padding-left: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgba(0, 0, 0, 0.11);
+            color: white;
+            border-color: white;
+            border-radius: 1px;
+            margin-top: 10px;
+        }
+
+        #container11 {
+            display: grid;
+            grid-template-rows: 20px 80px 30px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 270px 270px 270px;
+            justify-content: center;
+            grid-column-gap: 10px;
+        }
+
+        #m11img1 {
+            height: 170px;
+            width: 250px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #m11img2 {
+            height: 170px;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #m11img3 {
+            height: 170px;
+            width: 250px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #m11h61 {
+            height: 80px;
+            font-size: 40px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            line-height: 90px;
+        }
+
+        #m12h221 {
+            margin: 20px;
+        }
+
+        #m12b112 {
+            text-align: center;
+            width: 100%;
+            margin: 20px;
+            height: 100vh;
+        }
+
+        #seemore {
+            height: 10vh;
+            margin-top: 200px;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        #m12button1 {
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background-color: cornflowerblue;
+            border: none;
+            color: white;
+        }
+
+        #main13i {
+            height: 55vh;
+            display: flex;
+            justify-content: center;
+            column-gap: 40px;
+            background-color: #4992ca;
+            margin: auto;
+            text-align: center;
+        }
+
+        #m13image131 {
+            height: 160px;
+            width: 160px;
+            border-radius: 50%;
+
+        }
+
+        #m13para1 {
+            margin-left: 150px;
+        }
+
+        #m13para3 {
+            margin-right: 150px;
+        }
+
+        #m13founder {
+            background-color: #4992ca;
+            padding-top: 40px;
+            text-align: center;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            padding-bottom: 20px;
+        }
+
+        #m13parag31 {
+            text-align: start;
+        }
+
+        #m14head1 {
+            text-align: center;
+            margin-top: 20px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        #m14parad14 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #m15image1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        #m15logo12 {
+            height: 40px;
+            width: 100px;
+            column-gap: 150px;
+            margin-left: 125px;
+            margin-right: 125px;
+            margin-bottom: 10px;
+        }
+
+        #m16head1 {
+            background-color: #4992ca;
+            height: 20vh;
+            text-align: center;
+            color: white;
+        }
+
+        #m16lable {
+            line-height: 70px;
+            font-family: Avenir-Next, Roboto, sans-serif;
+        }
+
+        #m16button1 {
+            border-color: white;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin: 10px;
+            color: white;
+            background-color: #4992ca;
+            border-style: double;
+        }
+
+        #footer2 {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            column-gap: 150px;
+            row-gap: 20px;
+            color: white; 
+            padding: 30px;
+        }
+
+        #m16footline {
+            color: rgba(136, 129, 129, 0.6);
+            font-family: Avenir-Next, Roboto, sans-serif;
+        }
+        #m16main{
+            background-color: rgb(1, 22, 29);
+        }
+        #footerdiv{
+            margin: 10px;
+        }
+    </style>
+</head>
+<header>
+    <div id="container">
+        <h1 id="br">edyst</h1>
+        <div>
+
+            <select id="i1">
+
+
+                <option>Pokedex</option>
+            </select>
+            <select id="i2">
+                <option>Video Games</option>
+            </select id="i3">
+            <button id="i4">ECard games</button>
+            <button id="i5">Pokemon TV</button>
+            <button id="i6">Pokemon Events</button>
+            <select id="i7">
+                <option>About Us</option>
+            </select>
+            <button id="i8">Apply</button>
+        </div>
+    </div>
+</header>
+<main id="m1">
+    <section id="h1">
+        <div id="cont1">
+            <h1>WELLCOME TO EDYST </h1>
+            <h1>LEARN CODING</h1>
+            <h6 style="font-size: 20px;">Let's learn web devloptment In a fun way.</h6>
+            <button id="b1">Apply Here</button>
+            <div> <button id="b2">Register for course</button></div>
+            <button id="b3">Here you can learn to build beautifull websites <b> learn more</b></button>
+        </div>
+    </section>
+    </div>
+</main>
+
+<main id="m2">
+    <div id="m2d11">
+        <section id="sect1">
+            <div>
+                <h2 id="m2h1"> What are Pocket Monsters? </h2>
+                <h5 id="m2h3"> Pokémon is a series of video games developed by Game Freak and published by Nintendo and
+                    The
+                    Pokémon Company as part of the Pokémon media franchise. Created by Satoshi Tajiri with assistance
+                    from
+                    Ken Sugimori,the first games released in 1996 in Japan for the Game Boy, and the main series of
+                    role-playing video games (RPGs), also referred as the "core series" by their developers </h5>
+
+
+                <h4 id="m2h2">Let us know some pokemon types.</h4>
+            </div>
+
+        </section>
+        <section id="m2sec2">
+            <div id="sec2d1">
+                <p>
+                <div id="sec2d31">
+                    <i class="fa fa-water"></i>
+                </div>
+                <h4 id="sec2h11">Water</h4>
+
+                Water is one of the three basic elemental types along with Fire and Grass, which constitute the three
+                starter Pokémon. This creates a simple triangle to explain the type concept easily to new players. Water
+                is
+                the most common type with over 100 Pokémon, which are based on a wide variety of fish and other
+                sea-dwelling
+                creatures.
+                </p>
+            </div>
+            <div id="sec2d2">
+                <p>
+                <div id="sec2d32">
+                    <i class="fas fa-fire-alt"></i>
+                </div>
+                <h4 id="sec2h12">Fire</h4>
+
+
+                Fire is one of the three basic elemental types along with Water and Grass, which constitute the three
+                starter Pokémon. This creates a simple triangle to explain the type concept easily to new players. Fire
+                types are notoriously rare in the early stages of the games so choosing the Fire variation starter is
+                often
+                a plus.
+                </p>
+            </div>
+            <div id="sec2d3">
+                <p>
+                <div id="sec2d33">
+                    <i class="fa fa-leaf"></i>
+                </div>
+                <h4 id="sec2h13">Grass</h4>
+
+                Grass is one of the three basic elemental types along with Fire and Water, which constitute the three
+                starter Pokémon. This creates a simple triangle to explain the type concept easily to new players.Grass
+                is
+                one of the weakest types statistically, with 5 defensive weaknesses and 7 types that are resistant to
+                Grass
+                moves.
+                </p>
+            </div>
+    </div>
+    </section>
+
+</main>
+<main id="m3">
+    <section>
+        <div id="m3d11">
+            <h1> Statistics on Pokemon Go</h1>
+        </div>
+    </section>
+    <section id="m3tab1">
+        <table style="margin-right: 10px;" class="center">
+            <thead>
+                <tr>
+                    <th id="th11">Statistics of weight loss</th>
+                    <th id="th11">Statistics of app downloads</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The AR game's potential for weight loss was a big part of that discussion. In the process of
+                        getting out their doors and visiting parks, players found they were losing weight almost in
+                        spite of themselves. A Reddit Pokémon Go fan won acclaim for reporting that he'd lost 65 pounds
+                        between July and December.
+                    </td>
+                    <td>Pokémon GO is one of the most successful mobile games of all time, breaking records like fastest
+                        to earn $100 million and most-downloaded in its first month of release. To date, it has grossed
+                        almost $2 billion in revenue and been downloaded 800 million times. Although no longer the
+                        global phenomenon it was in 2016, the game remains incredibly popular.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/244793826_104560962009659_8241273165072379305_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=4iA3Yp8qTa4AX9t2lym&_nc_ht=scontent.fbho4-2.fna&oh=1cf09b9748922312c6fe76e99f701fa2&oe=61922E62" width="300px" height="200px" alt="">
+                    </td>
+                    <td>
+                        <img src="https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/245099453_104561225342966_5897314753022621677_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=tBLdOg68GiEAX-ua3AU&_nc_ht=scontent.fbho4-2.fna&oh=b5baab44333f91df725d02270a123fe0&oe=6193116C" width="300px" height="200px" alt="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+</main>
+<main>
+    <section>
+        <div id="secth41">
+            <h1>2020 Pokémon of the Year Revealed</h1>
+        </div>
+    </section>
+    <table id="m3table311">
+        <tr>
+            <td>
+                <div id="m3img311">
+                    <img src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/244990598_104564432009312_516054177238898794_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=hxl_CWHbYqAAX8lWlDJ&tn=KPh8Ba-sm0hg85m7&_nc_ht=scontent.fbho4-1.fna&oh=48d0f339fab0dfb2b6a642bf4f85c368&oe=6191758D" width="200px" height="200px" alt="">
+                </div>
+            </td>
+            <td>
+
+                <div id="m3img312">
+                    <h1 id="m3h311">greninja</h1>
+                    <h5 id="m3h311">Water/Dark</h5>
+                    <img src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=luVgjwFkQLIAX9lwaP6&_nc_ht=scontent.fbho4-1.fna&oh=87903ac6a7c979125b96444a2304314f&oe=6193641F" width="200px" height="60px" alt="">
+                </div>
+            </td>
+            <td id="m3parag3311">"Greninja is the final evolution of Pokémon X and Y water-type starter Froakie. It has the ability to
+                take on an appearance resembling its trainer. Pokedex says: Greninja creates throwing stars out of
+                compressed water. When it spins them and throws them at high speed, these stars can split metal in two."
+            </td>
+        </tr>
+    </table>
+    <table id="m3table311">
+        <tr style="margin-left: 100px;">
+            <td>
+                <div>
+                    <img src="https://scontent.fidr4-1.fna.fbcdn.net/v/t1.6435-9/245051522_104561332009622_4033607178950025660_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=QIQ9eBSvrrUAX8m6jPl&tn=KPh8Ba-sm0hg85m7&_nc_ht=scontent.fidr4-1.fna&oh=69633e2e8785dc14b5eb2bbed43f4216&oe=618C66D9"
+                        width="200px" height="200px" alt="">
+                </div>
+            </td>
+            <td>
+
+                <div id="m3img312">
+                    <h1 id="m3h311">Lucario</h1>
+                    <h5 id="m3h311">Fighting, Steelr</h5>
+                    <img src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=luVgjwFkQLIAX9lwaP6&_nc_ht=scontent.fbho4-1.fna&oh=87903ac6a7c979125b96444a2304314f&oe=6193641F" width="200px" height="60px" alt="">
+                </div>
+            </td>
+            <td id="m3parag3311">"Lucario is a bipedal, wolf-like Pokémon with blue, cream, and black fur. It is considered to be
+                prideful and loyal to its trainer. Pokedex says: By catching the aura emanating from others, Lucario can
+                read their thoughts and movements."
+
+            </td>
+        </tr>
+    </table>
+    <table id="m3table311">
+        <tr>
+            <td>
+                <div id="m3img311">
+                    <img src="https://scontent.fidr4-1.fna.fbcdn.net/v/t1.6435-9/245129532_104561338676288_6680361078136940875_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=bnMo_CH3kOUAX9lVek1&_nc_ht=scontent.fidr4-1.fna&oh=0f9c441987204303f995ac8f79243ee7&oe=618C8807"
+                        width="200px" height="200px" alt="">
+                </div>
+            </td>
+            <td>
+
+                <div id="m3img312">
+                    <h1 id="m3h311">Mimikyu</h1>
+                    <h5 id="m3h311">Ghost‎ ‎Fairy
+                    </h5>
+                    <img src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=luVgjwFkQLIAX9lwaP6&_nc_ht=scontent.fbho4-1.fna&oh=87903ac6a7c979125b96444a2304314f&oe=6193641F" width="200px" height="60px" alt="">
+                </div>
+            </td>
+            <td id="m3parag3311">""Mimikyu caused quite a stir for its peculiar looks and sad backstory when it was originally announced
+                for Pokémon Sun and Moon in 2016. Mimikyu is described as a Pokémon who felt so lonely that it decided
+                to wear a rag in order to look like Pikachu, everyone’s favorite Pokémon. Pokedex says: Its actual
+                appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from
+                the shock."
+
+            </td>
+        </tr>
+    </table>
+    <table id="m3table311">
+        <tr>
+            <td>
+                <div id="m3img311">
+                    <img style="border-radius: 50%;"
+                        src="https://scontent.fidr4-1.fna.fbcdn.net/v/t1.6435-9/245190029_104561682009587_4028401199551898590_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=B7Ehr8LVRTAAX8L5tbN&tn=KPh8Ba-sm0hg85m7&_nc_ht=scontent.fidr4-1.fna&oh=7db93fb9b1bef820f5d317645ad4f83c&oe=618AD046"
+                        width="200px" height="200px" alt="">
+                </div>
+            </td>
+            <td>
+
+                <div id="m3img312">
+                    <h1 id="m3h311">Charizard</h1>
+                    <h5 id="m3h311">Flying, Fire</h5>
+                    <img src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=luVgjwFkQLIAX9lwaP6&_nc_ht=scontent.fbho4-1.fna&oh=87903ac6a7c979125b96444a2304314f&oe=6193641F" width="200px" height="60px" alt="">
+                </div>
+            </td>
+            <td id="m3parag3311">"Charizard is an orange draconic Pokémon who has a fiery temper. It is the
+                final evolution of Charmander, one of the starter Pokémon for the original game. Pokedex says: Charizard
+                flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts
+                anything. However, it never turns its fiery breath on any opponent weaker than itself. "
+
+            </td>
+        </tr>
+    </table>
+
+</main>
+<main id="m5">
+    <header>
+        <div id="m5h51">
+            <h1 id="m5d51">Q and A</h1>
+        </div>
+    </header>
+    <div id="m2d52">
+        <ul type="none">
+            <li>
+                <h4 id="m4h512"> Quetions Every Pokemon Trainer Should Be Able To Answer</h4>
+            </li>
+            <li>
+                <h4 id="m4h512"> 1.What Pokemon does Pikachu evolve into?</h4>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ol>
+            <ul id="m5li511" type="disc">
+                <li>We're sure you know this Electric mouse Pokemon, and you know it quite well.
+                    Basic knowledge of Pikachu is essential for every trainer, but you should also be well versed in the
+                    rodent's evolutionary chain. Pikachu, mighty as it is, has an even stronger evolved form also
+                    capable of
+                    generating vast amounts of electricity. Maybe you've bumped into this species in the wild. Either
+                    way,
+                    this is a question all Pokemon trainers should be able to answer.
+                </li>
+                <li>Answer is Raichu
+                </li>
+            </ul>
+            <ol>
+                <li>
+                    <h4 id="m4h512">2. What's the most effective Poke Ball in the game?</h4>
+                </li>
+            </ol>
+            <ul id="m5li511" type="disc">
+                <li> Not all Poke Balls are made equally. There's the basic model you start your
+                    journey off with, but progressive upgrades are needed if you're looking to keep up with some of the
+                    stronger wild Pokemon who emerge in later routes. If you've made your way through any Pokemon game,
+                    you've reached the point where you're presented with the most effective Poke Ball known to man. This
+                    is
+                    a one shot catch, and no button mashing at all is required.
+                </li>
+                <li> Answer is Master Ball
+                </li>
+            </ul>
+        </ol>
+    </div>
+</main>
+<main id="m6">
+    <section>
+        <div id="m6d61">
+            <h1>Pokemon Battles</h1>
+
+        </div>
+        <div id="m6d62">
+            <h6>Here's a Pokémon Go type chart to get you started on what's effective against what.</h6>
+        </div>
+    </section>
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    <div id="m6tabtr1">
+                        <h4 style="color: black; margin-top: 20px;margin-bottom: 20px;"> Type chaet, effectiveness and
+                            weakness explained in Pokemon Go
+                        </h4>
+                        <p>Pokemon battles appear in mosts of pokemon media, beind the central
+                            gameplay aspect of the core series games, as well as being a constant focus of the anime
+                        </p>
+                        <p>
+                            Pokemon Go's Types are exactly the same Pokemon games, but the effect of those type matchups
+                            is
+                            slightly different:in brif, thinds like effective or resisted attacks have slightly
+                            defferent
+                            multipliers to to the main Pokemon games-although a december 2018 update brought them
+                            slightly
+                            closer in line.
+                        </p>
+                    </div>
+                    </t>
+                <td>
+                    <table id="m6tab63">
+                        <tr>
+                            <th style="color: black;">Type</th>
+                            <th style="color: black;">Strong Against</th>
+                            <th style="color: black;">Weak Against</th>
+                            <th style="color: black;">Resistant To</th>
+                        </tr>
+                        <tr>
+                            <th>Normal</th>
+                            <th>None</th>
+                            <th>Rock, Ghost, Steel</th>
+                            <th>Ghost</th>
+                        </tr>
+                        <tr>
+                            <th>Fighting</th>
+                            <th>Normal, Rock, Steel, Ice, Dark</th>
+                            <th>Flying, Poison, Psychic, Bug, Ghost, Fairy</th>
+                            <th>Rock, Bug, Dark</th>
+                        </tr>
+                        <tr>
+                            <th>Flying</th>
+                            <th>Fighting, Bug, Grass</th>
+                            <th>Rock, Steel, Electric</th>
+                            <th>Fighting, Ground, Bug, Grass</th>
+                        </tr>
+                        <tr>
+                            <th>Poison</th>
+                            <th>Grass, Fairy</th>
+                            <th>Poison, Ground, Rock, Ghost, Steel</th>
+                            <th>Fighting, Poison, Grass, Fairy</th>
+                        </tr>
+                        <tr>
+                            <th>Ground</th>
+                            <th>Poison, Rock, Steel, Fire, Electric</th>
+                            <th>Flying, Bug, Grass</th>
+                            <th>Poison, Rock, Electric</th>
+                        </tr>
+
+                    </table>
+                    <div style="margin-right: 250px; ">
+                        <p>Pokémon Go in 2020 continues to add new features, such the arrival of the Go Battle League,
+                            Remote Raids and the trade evolution feature. There are also planned changes to PokéCoins on
+                            the way. Meanwhile, coming soon is the Johto Throwback quest.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </thead>
+    </table>
+    <div>
+        <div id="m6d661">
+            <h4>Book your tikets now</h4>
+        </div>
+        <div id="m6d662">
+            <button id="m6b61">Buy Now</button>
+        </div>
+    </div>
+</main>
+<main>
+    <section>
+        <div id="m7d71">
+            <h1>Went to know more about Pokemon?</h1>
+            <button id="m7d72">Click here</button>
+        </div>
+    </section>
+    <section>
+
+
+        <div id="m7d73">
+
+            <div>
+                <h1>Pokemon Card</h1>
+            </div>
+
+            <table border="1" id="m7d74">
+                <tr>
+                    <th>
+                        <div>
+                            <h4 style="margin: 10px;padding: 5px;font-size: 12px;">Greninja</h4>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t1.6435-9/245139170_105500531915702_1517344207060558829_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=w-VIqN2uhUIAX_TnO3x&tn=KPh8Ba-sm0hg85m7&_nc_ht=scontent.fbho1-2.fna&oh=e7f5e1ef67dc12f67adf76a314725aef&oe=618BC26B"
+                            width="150px" height="150px" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <div>
+                            <h4 style="margin: 10px; color: black;font-size: 12px;">Ability: Torent</h4>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="margin: 10px;padding: 17px; color: black; font-size: 12px;">
+
+                        It is final evolution of Froaki, the Water-type starter fromKalos.
+
+                    </td>
+                </tr>
+        </div>
+        </table>
+    </section>
+</main>
+<main id="m8">
+    <div>
+        <header id="m8h1">
+            <h4>Let's know about pokemon trainers
+            </h4>
+        </header>
+    </div>
+    <table id="m8tab1">
+        <tbody>
+            <tr>
+                <td>
+                    <img id="m8img1" style="margin-right:20px;"
+                        src="https://scontent.fbho1-1.fna.fbcdn.net/v/t1.6435-9/245236467_105568591908896_3767329080676333359_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=pQUGXkeuJ-4AX-sQNsc&_nc_ht=scontent.fbho1-1.fna&oh=7601c44ce954e03d9e3becbddd9b10d6&oe=618BCD43"
+                        height="200px" width="200px">
+                </td>
+                <td id="m8h21" style="margin-right:20px;">
+                    <h3>Ash</h3>
+                    <h3> Ketchum
+                    </h3>
+
+                    <h5>
+                        Champion of Orange League</h5>
+
+                    <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=_8mBtaQlv2YAX_0-7Ad&_nc_ht=scontent.fbho1-2.fna&oh=75c0f7e697274776994cdb006916f45e&oe=618B7B1F"
+                        width="150px" height="70px" alt="">
+
+                </td>
+                <td id="m8p1" style="margin-left:30px;">
+                    <p> "Ash Ketchum, known as Satoshi in Japan, is a fictional character in the Pokémon franchise owned
+                        by
+                        Nintendo. He is the protagonist of the Pokémon anime and certain manga series as well as on
+                        various
+                        merchandise related to the franchise. In Japanese, the character is voiced by Rika Matsumoto,
+                        and
+                        Hana
+                        Takeda. "</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="m8tab1">
+        <tbody>
+            <tr>
+                <td>
+                    <img id="m8img1" style="margin-right:20px;"
+                        src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.6435-9/245201374_105568561908899_4880001572085129018_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=C9HGvMSgtcMAX8DhgK7&_nc_ht=scontent-bom1-1.xx&oh=149a963bfe07176a38d11da46e476639&oe=618A8DB3"
+                        height="200px" width="200px" alt="">
+                </td>
+                <td id="m8h21">
+
+                    <h3> Lance
+                    </h3>
+
+                    <h5>
+                        Dragon Master
+                    </h5>
+
+                    <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=_8mBtaQlv2YAX_0-7Ad&_nc_ht=scontent.fbho1-2.fna&oh=75c0f7e697274776994cdb006916f45e&oe=618B7B1F"
+                        width="150px" height="70px" alt="">
+
+                </td>
+                <td id="m8p1">
+                    <p> "Lance is a recurring character in Pokémon. He is a user of Dragon-types being the final Elite
+                        Four member in Red, Blue and their remakes. In Pokémon Gold, Silver, Crystal and their remakes,
+                        he is the Champion.Lance has appeared in the Pokémon series games from Generation I-III. He
+                        first appeared in the original Red and Blue games, being the final member of the Elite Four, and
+                        again in Generation III's Red and Blue remakes, FireRed and LeafGreen. Lance in the Generation
+                        II games differed from the previous though, as he was Pokémon Champion by this time. "
+
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="m8tab1">
+        <tbody>
+            <tr>
+                <td>
+                    <img id="m8img1" style="margin-right:20px;"
+                        src="https://scontent-bom1-1.xx.fbcdn.net/v/t1.6435-9/245228346_105568668575555_5722476667268423194_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=trsCtlHBSBYAX9szDDz&_nc_oc=AQlrSCtfWV5GTWT3ySdlVQa32vOOznjXfipnDms-JFGXOMH4yEAQWMezacUS5aIraRnLQpoMEHHPEmt2VhCo6Lbg&_nc_ht=scontent-bom1-1.xx&oh=f703898766b932463491d824ee96ac73&oe=618A011F"
+                        width="200px" height="200px" alt="">
+                </td>
+                <td id="m8h21">
+
+                    <h3> Cynthia
+                    </h3>
+
+                    <h5>
+                        Shirona</h5>
+
+                    <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=_8mBtaQlv2YAX_0-7Ad&_nc_ht=scontent.fbho1-2.fna&oh=75c0f7e697274776994cdb006916f45e&oe=618B7B1F"
+                        width="150px" height="70px" alt="">
+
+                </td>
+                <td id="m8p1">
+                    <p>"Cynthia is a powerful Pokémon trainer and the Champion of the Sinnoh region where Professor
+                        Carolina, Cynthia's grandmother, runs the Pokémon Research Lab in Celestic Town. She enjoys
+                        visiting the Solaceon Town Ruins. Later, in Pokémon: DP Galactic Battles, she helps fight Team
+                        Galactic as well. In the anime, she has a villa in east Unova but in the Pokémon Black and White
+                        games, she borrows Caitlin's villa (from the Elite Four). "
+
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="m8tab1">
+        <tbody>
+            <tr>
+                <td id="m8img1">
+                    <img id="m8img1" style="margin-right:20px;"
+                        src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.6435-9/243578994_105568698575552_1843520573662538507_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=-S4pQE_AjgsAX9YrkL9&_nc_ht=scontent-bom1-2.xx&oh=0ee450eefebda258c99fe6a9be222caa&oe=618D3C10"
+                        width="200px" height="200px" alt="">
+                </td>
+                <td id="m8h21">
+
+                    <h3> Ipsum lorem
+
+                    </h3>
+
+                    <h5>
+                        Ookido Yukinari Hakase
+                    </h5>
+
+                    <img src="https://scontent.fbho1-2.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=_8mBtaQlv2YAX_0-7Ad&_nc_ht=scontent.fbho1-2.fna&oh=75c0f7e697274776994cdb006916f45e&oe=618B7B1F"
+                        width="150px" height="70px" alt="">
+
+                </td>
+                <td id="m8p1">
+                    <p>"Ookido Yukinari Hakaseamuel Oak is most notable for his vast research facility, where he cares
+                        for and studies hundreds of Pokémon, including those owned by, but not currently traveling with,
+                        Trainers from Pallet Town. He has confidence in his grandson, Gary Oak, but more often joins
+                        Ash's mother and friends in cheering on Ash in his competitions. "
+
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+<main>
+    <section>
+        <header id="m9h91">
+            <h1>Generations - Cards </h1>
+        </header>
+    </section>
+    <section id="container2">
+        <table id="m9table" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <h2>First generation</h2>
+                        <p>(1996–1999)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The original Pokémon games are Japanese role-playing video games (RPGs) with an element of
+                        strategy, and were created by Satoshi Tajiri for the Game Boy. The Pokémon series began with the
+                        release of Pocket Monsters Red and Green for the Game Boy in Japan. When these games proved
+                        popular, an enhanced Blue version was released sometime after, and the Blue version was
+                        reprogrammed as Pokémon Red and Blue for international release. The original Green version was
+                        not released outside Japan
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="m9table" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <h2>Second generation</h2>
+                        <p>(1999–2002)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The second generation of Pokémon video games began in 1999 with the Japanese release of Pokémon
+                        Gold and Silver for the Game Boy Color, with Australia and North America getting the game in
+                        October 2000 and European release date of April 2001. Like the previous generation, an enhanced
+                        version, titled Pokémon Crystal, was later released.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="m9table" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <h2>Third generation</h2>
+                        <p>(2002–2006)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pokémon entered its third generation with the 2002 release of Pokémon Ruby and Sapphire for Game
+                        Boy Advance and continued with the Game Boy Advance remakes of Pokémon Red and Green, Pokémon
+                        FireRed and LeafGreen (Red and Green representing the original Japanese first generation games;
+                        territories outside Japan instead saw releases of Red and Blue). An enhanced remake of Pokémon
+                        Ruby and Sapphire titled Pokémon Emerald followed after.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="m9table" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        <h2>Fourth generation</h2>
+                        <p>(2006–2010)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>In 2006, Japan began the fourth generation of the franchise with the release of Pokémon Diamond
+                        and Pearl for Nintendo DS. The games were released in North America on April 22, 2007 and in
+                        Australia on June 21, 2007. The game was released in the UK and Europe on July 27, 2007. Other
+                        main series games in the fourth generation include Pokémon Platinum, a director's cut version of
+                        Diamond and Pearl in the same vein as Pokémon Yellow, Crystal, and Emerald.It was released for
+                        the Nintendo DS in Japan on September 13, 2008, in North America on March 22, 2009, and in
+                        Australia and Europe on May 14, 2009 and May 22, 2009
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<main>
+    <section id="m10sect1">
+        <div style=" font-family: Avenir-Next, Roboto, sans-serif;">
+            <h1>Enter your email to subscribe pokemon channel</h1>
+        </div>
+        <div>
+            <input id="m10b11" type="gmail" placeholder="you@gmail.com" />
+            <input id="m10b12" type="submit" />
+        </div>
+    </section>
+
+
+    <main style="text-align: center;">
+        <section>
+            <header>
+                <h1 id="m11h61"> Pokemon games</h1>
+            </header>
+        </section>
+        <main id="container11">
+            <section>
+                <div>
+                    <h4 id="m11h221">Pokémon Sleep</h4>
+                </div>
+                <div>
+                    <article>Pokémon Sleep is an upcoming mobile game for Android and iOS, as part of the Pokémon
+                        series.
+                    </article>
+                </div>
+                <div>
+                    <img id="m11img1"
+                        src="https://scontent.fbho1-2.fna.fbcdn.net/v/t1.6435-9/s600x600/245508313_105737138558708_9143316757155570342_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=MTPR303ETkUAX-OZ1Fr&_nc_ht=scontent.fbho1-2.fna&oh=4ff467c0c97629a55427013db657a6e7&oe=618AFE5B"
+                        alt="">
+                </div>
+                <div>
+                    <article>Publisher: The Pokémon Company</article>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h4 id="m11h221">Pokémon: Let's Go, Pikachu!</h4>
+                </div>
+                <div>
+                    <article>Take a Pokémon™ journey to the Kanto region with your energetic partner, Pikachu</article>
+                </div>
+                <div>
+                    <img id="m11img2"
+                        src="https://scontent.fbho1-1.fna.fbcdn.net/v/t1.6435-9/245336547_105737065225382_5002320876372524567_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=bvghYxAt8bYAX_rrjc6&_nc_ht=scontent.fbho1-1.fna&oh=f644dec0718b6ae8f682357bbecfc7ec&oe=618A0DAD"
+                        alt="">
+                </div>
+                <div>
+                    <article>Publishers: Nintendo, The Pokémon Company</article>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h4 id="m11h221">Pokémon GO</h4>
+                </div>
+                <div>
+                    <article>Pokémon Go is a 2016 augmented reality mobile game developed.</article>
+                </div>
+                <div>
+                    <img id="m11img3"
+                        src="https://scontent.fbho1-1.fna.fbcdn.net/v/t1.6435-9/245367921_105737058558716_6848649193247781349_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=jDKRfOcEe0sAX_cWXEE&_nc_ht=scontent.fbho1-1.fna&oh=3a9c76e35fe165c4d8090651109d8ecb&oe=618ACC72">
+                </div>
+                <div>
+                    <article>Developer: Niantic</article>
+                </div>
+            </section>
+        </main>
+    </main>
+
+    <main>
+        <section>
+            <div id="seemore">
+                <button id="m12button1">See More Here</button>
+            </div>
+        </section>
+    </main>
+    <main>
+        <header>
+            <div id="m13founder">
+                <h2>Designers</h2>
+            </div>
+        </header>
+        <main id="main13i">
+            <section id="m13para1">
+                <div>
+                    <img id="m13image131"
+                        src="https://scontent.fstv8-1.fna.fbcdn.net/v/t1.6435-9/245649684_106716865127402_2216731289420841807_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=w5uHjeJV2aEAX_n2o4v&_nc_ht=scontent.fstv8-1.fna&oh=2a7560b7aa21a5737e5b4f8aa48eb87c&oe=618E45C5"
+                        alt="">
+                    <h3>Junichi Masuda</h3>
+
+                </div>
+                <div>
+                    <h5>
+                        Japanese video game designer</h5>
+                </div>
+                <div>
+                    <p id="m13parag31">"Junichi Masuda is a Japanese video game composer, director, designer, producer,
+                        singer, and
+                        programmer best known for his work in the Pokémon franchise. He is a member of the Game Freak
+                        board of directors, and has been employed at the company since 1989 when he founded it along
+                        Satoshi Tajiri and Ken Sugimori "
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img id="m13image131"
+                        src="https://scontent.fbho4-2.fna.fbcdn.net/v/t1.6435-9/245237038_106716898460732_8478527415882708205_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=yrWMT75R4-YAX84VOea&_nc_ht=scontent.fbho4-2.fna&oh=6352e8e25e044f8c1f7ad5e7280e52e2&oe=618EA975"
+                        alt="">
+                    <h3>Shigeki Morimoto
+                    </h3>
+
+                </div>
+                <div>
+                    <h5>Game designer</h5>
+                </div>
+                <div>
+                    <p id="m13parag31">"Shigeki Morimoto is a game designer and programmer currently working at Game
+                        Freak. He has been
+                        involved in nearly every main series Pokémon game, since Pokémon Red and Blue Versions where he
+                        was a programmer, and the creator of the battle system and the Pokémon "Mew". "
+                    </p>
+                </div>
+            </section>
+            <section id="m13para3">
+                <div>
+                    <img id="m13image131"
+                        src="https://scontent.fstv8-1.fna.fbcdn.net/v/t1.6435-9/245280663_106717011794054_5370074653308598518_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=v4mWsoIlBqYAX-sPUck&_nc_ht=scontent.fstv8-1.fna&oh=dc45654781981a7baac76b3abef5c7bd&oe=618CB52E"
+                        alt="">
+                    <h3>Ken Sugimori</h3>
+                </div>
+                <div>
+                    <h5>Japanese video game designer</h5>
+                </div>
+                <div>
+                    <p id="m13parag31">"Ken Sugimori is a Japanese video game designer, illustrator, manga artist, and
+                        director. He is
+                        most famous as the character designer and art director for the Pokémon franchise. Sugimori is
+                        also credited with the art direction for other titles, including Pulseman "
+                    </p>
+                </div>
+            </section>
+        </main>
+    </main>
+    <main>
+        <header>
+            <div>
+                <h1 id="m14head1">Logos</h1>
+                <p id="m14parad14">Pokémon is short for the original Japanese title of Pocket Monsters. Created by.
+                    Satoshi Tajiri. </p>
+            </div>
+        </header>
+    </main>
+    <main id="m15image1">
+        <section>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+        </section>
+        <section>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+        </section>
+        <section>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+            <div>
+                <img id="m15logo12"
+                    src="https://scontent.fbho4-1.fna.fbcdn.net/v/t1.6435-9/245075338_105606668571755_6874975571221602837_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=1T2Z3ym-iVsAX_D9ZcP&_nc_ht=scontent.fbho4-1.fna&oh=995e668894968668eb7b1fd04b79bcf6&oe=618F6F9F"
+                    alt="">
+            </div>
+        </section>
+    </main>
+    <main id="m16head1">
+        <header id="m16lable">
+            <h1>Went to know more?</h1>
+        </header>
+        <div>
+            <button id="m16button1">Click Here</button>
+        </div>
+    </main>
+    <main id="m16main">
+        <footer id="footer2">
+            <section>
+                <div>
+                    <h5 id="m16footline">Pokemon Company</h5>
+                    <h5>What's New</h5>
+                    <h5>Guide</h5>
+                    <h5>Customer Service</h5>
+                    <h5>About our company</h5>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h5 id="m16footline">For Companies</h5>
+                    <h5>Policy.</h5>
+                    <h5>Term fo use</h5>
+                    <h5>Privacy</h5>
+                    <h5>Suport</h5>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h5 id="m16footline">Resources</h5>
+                    <h5>Requist a Feature</h5>
+                    <h5>Careers</h5>
+                    <h5>FAQ</h5>
+                    <h5>Suport</h5>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h5 id="m16footline">Social</h5>
+                    <div id="footerdiv">
+                        <i class="fa fa-instagram-square"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                    <h5>1201 &copy; Poke</h5>
+                    <h5>Buy me a coffee <i class="fa fa-coffee"></i> </h5>
+                </div>
+            </section>
+        </footer>
+    </main>
+
+</html>
