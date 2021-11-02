@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function rahul(event){
+            console.log(event.target.innerText)
+            switch (event.target.innerText){
+                case "good morning":
+                document.querySelector("#a").innerText = "good morning rani"
+                document.querySelector("#a").style.color = "red"
+                break;
+                case "good evening":
+                document.querySelector("#b").innerText = "good evening rani"
+                document.querySelector("#b").style.color = "blue"
+
+                break;
+                case "good night":
+                document.querySelector("#c").innerText = "good night rani"
+                document.querySelector("#c").style.color = "green"
+
+                break
+            }
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 100px;">
+        
+        
+        <h4>dom manipulation task</h4>
+        <button onclick="rahul(event)">good morning</button>
+        <button onclick="rahul(event)">good evening</button>
+        <button onclick="rahul(event)">good night</button>
+        
+        <h1 id="a" font-size:40em;></h1>
+        <h1 id="b" ></h1>
+        <h1 id="c" ></h1>
+        
+        
+    </div>
+    
+</body>
+</html>

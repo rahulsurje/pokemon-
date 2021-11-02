@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <script>
+        function fn(){
+            var inref=document.getElementById('i')
+            var bref=document.getElementById('b')
+            var pref =document.getElementById('p')
+           
+            if(inref.type==='password'){
+                inref.type='text'
+                bref.innerText='Hide Password'
+                pref.innerText='inref'
+                
+            }else{
+                inref.type='password'
+                bref.innerText='Show Password'
+            }
+        }
+    </script>
+</head>
+<body style="text-align: center;margin-top: 100px;">
+    <h2>Changing Text</h2>
+    Password:<input type="password" id="i"/>
+    <button id="b" onclick="fn()">Show Password</button>
+    <p id="p"></p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <title>Document</title>
+     <script>
+         function fncreateh2(){
+             var h2Ref = document.createElement("h2")
+             h2Ref.append("wellcome to DOM manupulation")
+             document.querySelector("body").appendChild(h2Ref)
+             document.getElementById("b1").setAttribute("disabled",true)
+
+         }
+         function fnshow(){
+            document.querySelector("h2").style.display = "block"
+
+
+
+         }
+         function fnhide(){
+             document.querySelector("h2").style.display = "none"
+         }
+         function fnenable(){
+            document.getElementById("b1").remove.Attribute("enabled",true)
+         }
+
+     </script>
+ </head>
+ <body>
+     <div>
+         <button onclick="fncreateh2()" id="b1">create new element</button>
+         <button onclick="fnshow()">show</button>
+         <button onclick="fnhide()">hide</button>
+         <BUTTon onclick="fnenable()" id = "c1">ENABLE</BUTTon>
+     </div>
+ </body>
+ </html>

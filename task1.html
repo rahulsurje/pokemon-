@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+       
+        function fn1(){
+            var pref=document.getElementById('p')
+            var href=document.getElementById("h")
+            href.innerText='Wellcome'
+            href.style.color='green'
+            pref.style.color='red'
+            pref.innerText='good morning rahul'
+        }
+        function fn2(){
+            var pref=document.getElementById('p')
+            var href=document.getElementById("h")
+            href.innerText='Wellcome'
+            href.style.color='green'
+            pref.style.color='red'
+            pref.innerText='good evening rahul'
+        }
+        function fn3(){
+            var pref=document.getElementById('p')
+            var href=document.getElementById("h")
+            href.innerText='Wellcome'
+            href.style.color='green'
+            pref.style.color='red'
+            pref.innerText='good night rahul'
+        }
+    </script>
+</head>
+<body style="text-align: center;margin-top: 400px;">
+    <h1 id="h"></h1>
+    <p id="p"></p>
+    <button onclick="fn1()">good morning</button>
+    <button  onclick="fn2()">good evening</button>
+    <button  onclick="fn3()">good night</button>
+</body>
+</html>

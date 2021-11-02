@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script>
+        function fnimage() {
+            var myImage = new Image(600, 400);
+            myImage.src = 'https://images.pexels.com/photos/6037721/pexels-photo-6037721.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500';
+            document.body.appendChild(myImage);
+            document.querySelector("#12").style.display = "none"
+
+        }
+        function fnimages() {
+            var myImage = new Image(600, 400);
+            myImage.src = 'https://images.pexels.com/photos/39691/family-pier-man-woman-39691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940';
+            document.body.appendChild(myImage);
+            document.querySelector("#13").style.display = "none"
+
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <button onclick="fnimage()" id="12">freinds</button>
+        <button onclick="fnimages()" id="13">family</button>
+    </div>
+</body>
+
+</html>
